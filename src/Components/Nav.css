@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background-color: rgb(129, 129, 241);
+}
+.nav h3 {
+  margin: 7px 7px 7px 20px;
+}
+
+.menu {
+  margin: 7px 20px 7px auto;
+}
+
+.menu .icon {
+  color: white;
+  font-size: 28px;
+}
