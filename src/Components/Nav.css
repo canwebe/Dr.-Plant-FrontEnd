@@ -1,7 +1,7 @@
 .nav {
   display: flex;
   align-items: center;
-  padding: 8px;
+  padding: 6px;
   background-color: rgb(129, 129, 241);
 }
 .nav h3 {
