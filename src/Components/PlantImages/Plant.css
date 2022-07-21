@@ -1,0 +1,31 @@
+.container {
+  width: 90%;
+  margin: 50px auto;
+}
+
+.webcam {
+  border: 3px solid rgb(190, 88, 88);
+  height: 100%;
+}
+
+.btns {
+  margin: 40px 0;
+}
+
+.btns p {
+  color: rgba(183, 186, 195, 0.864);
+  font-weight: bold;
+  margin: 9px 0px;
+}
+
+.capture,
+.upload {
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 5px 12px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: #308f40;
+  color: white;
+}

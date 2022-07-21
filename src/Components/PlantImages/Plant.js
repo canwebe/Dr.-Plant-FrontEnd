@@ -1,15 +1,45 @@
-import React from 'react'
+import React, { useState, useRef, useCallback } from 'react'
+import Webcam from 'react-webcam'
+import './Plant.css'
 
-const Plant = () => {
+const videoConstraints = {
+  width: 1280,
+  height: 720,
+  facingMode: 'user',
+}
+
+const WebcamCapture = () => {
+  const [image, setImage] = useState()
+  const webcamRef = useRef(null)
+  const capture = useCallback(() => {
+    const imageSrc = webcamRef.current.getScreenshot()
+    setImage(imageSrc)
+  }, [webcamRef])
   return (
-    <div className='Upload-sec'>
-      <div className='sacnner'></div>
-      <div className='Buttons'>
-        <button className='detectBtn'>Detect</button>
-        <button className='uploadBtn'>Upload{console.log('uploadBtn')}</button>
+    <div className='container'>
+      <div className='cam'>
+        <Webcam
+          className='webcam'
+          audio={false}
+          height={400}
+          ref={webcamRef}
+          screenshotFormat='image/jpeg'
+          width={200}
+          videoConstraints={videoConstraints}
+        />
       </div>
+      <div className='btns'>
+        <button className='capture' onClick={capture}>
+          detect
+        </button>
+        <br />
+        <p>OR</p>
+
+        <button className='upload'>upload</button>
+      </div>
+      <img src={image} alt='Screenshot' />
     </div>
   )
 }
 
-export default Plant
+export default WebcamCapture
