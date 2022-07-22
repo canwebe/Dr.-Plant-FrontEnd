@@ -28,7 +28,6 @@
   background-color: #b2c8df;
   /* background-color: rgb(161, 219, 163); */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  padding: 5px;
 }
 
 .Wrapper div a {
@@ -42,7 +41,9 @@
 }
 
 .Wrapper p {
+  padding: 3px 0;
   font-size: 17px;
   font-weight: 600;
   color: rgb(30, 29, 29);
+  background-color: antiquewhite;
 }

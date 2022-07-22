@@ -1,9 +1,9 @@
-import potato from '../../Assets/potato.webp'
-import tomato from '../../Assets/tomato.webp'
-import onion from '../../Assets/onion.webp'
-import beetroot from '../../Assets/beetroot.webp'
-import garlic from '../../Assets/garlic.webp'
-import carrot from '../../Assets/carrot.webp'
+import potato from '../../Assets/potato.png'
+import tomato from '../../Assets/tomato.png'
+import onion from '../../Assets/onion.png'
+import beetroot from '../../Assets/beetroot.png'
+import garlic from '../../Assets/garlic.png'
+import carrot from '../../Assets/carrot.png'
 
 export const Data = [
   {

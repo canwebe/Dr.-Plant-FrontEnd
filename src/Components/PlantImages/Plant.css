@@ -13,6 +13,7 @@
 }
 
 .btns p {
+  background-color: aliceblue;
   color: rgba(183, 186, 195, 0.864);
   font-weight: bold;
   margin: 9px 0px;
