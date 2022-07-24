@@ -1,0 +1,57 @@
+.detectBody {
+  padding: 0 0 100px;
+}
+
+h2.plantName {
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.camera {
+  width: 100%;
+}
+
+.cameraBtnWrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.cameraBtnWrapper button {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  padding: 15px 0;
+  color: rgb(34, 34, 34);
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  width: 100%;
+}
+.cameraBtnWrapper input {
+  background-color: rgb(170, 181, 227);
+  padding: 10px;
+  width: 100%;
+}
+
+img.preview {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 18px rgba(0, 0, 0, 0, 3);
+}
+
+.diagnoseBtn {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  padding: 15px 0;
+  background-color: blueviolet;
+  color: white;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
