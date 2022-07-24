@@ -1,20 +1,23 @@
 nav {
-  background-color: white;
+  background-color: #bcd1db;
   padding: 10px 0;
   width: 100%;
   text-align: center;
-  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 18px -5px rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
   z-index: 9999;
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  color: #18485f;
+  font-weight: 600;
 }
 
 .logo span {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   display: block;
-  color: rgb(166, 166, 166);
+  color: rgb(186, 122, 87);
+  font-weight: 300;
 }

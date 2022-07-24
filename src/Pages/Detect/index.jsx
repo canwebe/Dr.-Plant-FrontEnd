@@ -9,7 +9,9 @@ export default function Detect() {
   const { id } = useParams()
   const videoConstraints = {
     width: 'auto',
+    minHeight: 300,
     aspectRatio: 16 / 9,
+    facingMode: 'environment',
   }
   const webcamref = useRef()
   const [image, setImage] = useState()
@@ -40,6 +42,7 @@ export default function Detect() {
         videoConstraints={videoConstraints}
         screenshotFormat='image/jpeg'
         width={'100%'}
+        height={'100%'}
       />
       <div className='wrapper'>
         <div className='cameraBtnWrapper'>

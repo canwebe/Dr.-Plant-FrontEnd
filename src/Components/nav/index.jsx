@@ -6,7 +6,7 @@ const Nav = () => {
     <nav>
       <div className='wrapper'>
         <Link to='' className='logo'>
-          Dr. Plant <span>by CanWeBe</span>
+          Dr. Leafo <span>by CanWeBe</span>
         </Link>
       </div>
     </nav>
