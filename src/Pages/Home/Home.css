@@ -1,49 +1,34 @@
-.header {
-  text-align: center;
-  font-size: 22px;
-  margin-top: 20px;
-  color: #bdc7d7;
+.plantListWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 20px;
+  margin: 0 auto;
+  padding: 30px 0 100px;
+  width: 90%;
 }
 
-.header::after {
-  content: '';
-  display: block;
-  width: 145px;
-  height: 3px;
-  margin: 2px auto;
-  background-color: rgb(188 110 110);
-}
-
-.Wrapper {
+.plantCard {
+  box-shadow: 2px 3px 18px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 20px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  width: 95%;
-  margin: 25px auto;
-  flex-wrap: wrap;
+  gap: 20px;
+  background-color: aliceblue;
+  background-color: #cadef0;
 }
 
-.Wrapper div {
-  width: 43%;
-  margin: 10px;
-  background-color: #b2c8df;
-  /* background-color: rgb(161, 219, 163); */
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.plantCard img {
+  width: 70px;
+  height: 70px;
+  filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.7));
 }
 
-.Wrapper div a {
-  list-style: none;
-  text-decoration: none;
-}
-
-.Wrapper img {
-  width: 100%;
-  height: 110px;
-}
-
-.Wrapper p {
-  padding: 3px 0;
-  font-size: 17px;
-  font-weight: 600;
-  color: rgb(30, 29, 29);
-  background-color: antiquewhite;
+.plantCard p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: rgba(57, 57, 57, 0.701);
 }

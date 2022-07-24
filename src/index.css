@@ -6,11 +6,29 @@
 
 html {
   height: 100%;
-  overflow: hidden;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: #25272adb;
   font-family: Montserrat, sans-serif;
+  background-color: #bcd1db;
+}
+
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1500px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  width: 100%;
+}
+
+.marginNav {
+  margin-top: 100px;
 }

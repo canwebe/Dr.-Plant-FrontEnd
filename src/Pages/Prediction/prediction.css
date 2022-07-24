@@ -1,0 +1,61 @@
+h2.plantNameP {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.prediction {
+  padding: 20px 0 100px;
+}
+
+.prediction h2 {
+  text-align: center;
+  font-weight: 300;
+  color: rgb(71, 71, 71);
+}
+.prediction h2::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 150px;
+  background-color: blueviolet;
+  margin: 5px auto 40px;
+}
+
+.loadingText {
+  color: rgb(155, 155, 155);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.prediction h3 {
+  font-size: 1.3rem;
+  margin: 15px 0 7px;
+  position: relative;
+}
+
+.prediction h3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 255, 255, 0.367);
+}
+.prediction p {
+  font-size: 1.2rem;
+}
+p.predictionP {
+  font-size: 1.4rem;
+}
+
+p.predictionP span {
+  font-weight: 600;
+  color: blueviolet;
+}
+
+.prediction hr {
+  margin-top: 10px;
+  background-color: rgb(121, 98, 223);
+}

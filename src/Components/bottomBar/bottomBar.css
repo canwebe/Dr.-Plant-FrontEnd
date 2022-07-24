@@ -1,0 +1,18 @@
+.bottomBar {
+  /* padding: 10px 0; */
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.bottomBarWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomBarWrapper a {
+  padding: 20px;
+  text-transform: uppercase;
+}
