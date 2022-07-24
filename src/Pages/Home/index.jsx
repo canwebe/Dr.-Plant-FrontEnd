@@ -1,5 +1,5 @@
 import React from 'react'
-import './home.css'
+import './Home.css'
 import { Link } from 'react-router-dom'
 import { plantName } from '../../Data/plantNames'
 import GetPhoto from '../../Components/getPhoto'
