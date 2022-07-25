@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
-  margin: 0 auto;
   padding: 10px 0 100px;
-  width: 80%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .plantCard {

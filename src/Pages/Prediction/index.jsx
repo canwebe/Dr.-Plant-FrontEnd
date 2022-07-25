@@ -31,10 +31,10 @@ export default function Prediction() {
         ) : (
           <>
             <p className='predictionP'>
-              Disease : <span>Healthy</span>
+              Disease : <span>Late Blight</span>
             </p>
             <p className='predictionP'>
-              Confidence : <span>99.3%</span>
+              Confidence : <span>98.1%</span>
             </p>
             <hr />
             <h3>Information :</h3>

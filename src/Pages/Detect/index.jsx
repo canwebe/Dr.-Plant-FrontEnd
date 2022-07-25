@@ -9,7 +9,6 @@ export default function Detect() {
   const { id } = useParams()
   const videoConstraints = {
     width: 'auto',
-    minHeight: 300,
     aspectRatio: 16 / 9,
     facingMode: 'environment',
   }
